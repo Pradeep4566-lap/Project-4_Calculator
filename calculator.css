@@ -1,0 +1,35 @@
+#calculator {
+    border: 1px solid rgba(187, 183, 183);
+    border-radius: 5px;
+    width: 250px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('photo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+  }
+
+#display {
+    margin: 10px;
+    width: 85%;
+    font-size: 25px;
+    display: flex;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
